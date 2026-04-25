@@ -2,6 +2,7 @@
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
 *.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
 DerivedData/
 *.hmap
 *.ipa
@@ -41,7 +42,12 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/
 
 # IDEWorkspaceChecks.plist
 *.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
